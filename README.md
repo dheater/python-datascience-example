@@ -42,6 +42,9 @@ Install the virtual environment with conda and activate it:
 
 ```bash
 $ conda env create -f environment.yml
+# Windows
+$ activate example_project
+# Linux/Mac
 $ source activate example-project 
 ```
 
