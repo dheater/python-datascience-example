@@ -41,11 +41,9 @@ Set up
 Install the virtual environment with conda and activate it:
 
 ```bash
+$ conda install ipykernel nb_conda_kernels
 $ conda env create -f environment.yml
-# Windows
-$ activate example_project
-# Linux/Mac
-$ source activate example-project 
+$ conda activate example_project
 ```
 
 Install `exampleproject` in the virtual environment:
